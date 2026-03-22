@@ -1,6 +1,6 @@
 ﻿# Distributed RAG - Development Log
 
-## v0.4 (2026-03-10)
-- LLM-as-a-Judge evaluation: Faithfulness 0.85, Relevancy 0.82
-- Hallucination detection: injected bad answers score 0.39
-- Baseline comparison: RAGAS vs Jaccard on semantic paraphrase
+## v1.0 (2026-03-22)
+- End-to-end pipeline verified: ETL -> Embed -> Shard -> Retrieve -> Generate -> Evaluate
+- README updated with architecture diagram and benchmark results
+- Production-ready adapter pattern for vLLM cluster swap-in
