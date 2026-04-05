@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# 向量数据库文件（体积太大）
+dist_rag_lancedb/
+test_lancedb_tmp/
+
+# 环境变量与密钥
+.env
+*.env
+
+# 个人文件（不能被面试官看到）
+core/话术.txt
+core/谭阳简历（竞赛）.docx
+core/resume.txt
+core/resume_full.txt
+core/resume_utf8.txt
+core/*.resolved
+core/10天冲刺计划.md.resolved
+
+# 日志
+output.log
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# uv 锁文件（可选择性忽略）
+# uv.lock
